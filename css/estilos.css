@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    background-color: #2c3e50;
+    padding: 25px 10px;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    background-color: #34495e;
+    padding: 15px 0;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.presentacion {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 30px;
+    color: #16a085;
+    margin-bottom: 25px;
+}
+
+.contenido {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.cava {
+    width: 100%;
+    max-width: 260px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.cava:hover {
+    transform: translateY(-4px);
+}
+
+.pie {
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.pie div p {
+    margin: 4px 0;
+    line-height: 1.5;
+}
+
+
+
+.historia {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.historia p {
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.imgprin {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.imgsec {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+.formulario {
+   display: flex;
+    flex-direction: column;
+    gap: 2px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+.formulario label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: inherit;
+    resize: none;
+}
+.modooscuro{
+    background-color: #333333;
+    color: #ffffff;
+}
+#mode{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #333333;
+    color: #ffffff;
+}
+.modooscuro #mode{
+    background-color: #ffffff;
+    color: #333333;
+}
